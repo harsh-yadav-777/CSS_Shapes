@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Triangle</title>
+    <style>
+        body {
+            margin: 0;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            margin: 100px auto;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-bottom: 150px solid purple;
+
+            /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="triangle"></div>
+</body>
+
+</html>
